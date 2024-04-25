@@ -1,5 +1,6 @@
 # Get-Weather
-A simple Weather web app built with HTML, CSS, and JavaScript, providing current weather and short-term forecasts. The Weather data come from [OpenWeatherMap API](https://openweathermap.org/).
+* A simple Weather web app built with HTML, CSS, and JavaScript, providing current weather and short-term forecasts.
+* The Weather data come from [OpenWeatherMap API](https://openweathermap.org/).
 
 ## Screenshots
 <div align=center>
