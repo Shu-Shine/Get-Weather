@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/src/style.css">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Current Weather</title>
+  <script src="/src/config.js"></script>
+</head>
+<body>
+    <div class="board">
+      <header>
+        <i class='bx bx-left-arrow-alt'></i> Weather 
+      </header>
+      <section class="input-container">
+        <p class="hint"></p>
+        <input type="text" placeholder="Enter City Name" required >
+        <div class="separator"></div>
+        <button>Use Current Location</button>
+      </section>
+      <section class="weather-container">
+        <img src="public/clouds.png" alt="Weather Icon" >
+        <div class="temp">
+          <span class="num">_</span>
+          <span class="unit">°</span>C
+        </div>
+        <div class="weather-text">_</div>
+        <div class="location">
+          <i class="bx bx-map"></i>
+          <div class="ort">_, _</div>
+        </div>
+        <div class="bottom-details">
+          <div class="temp-feel">
+            <i class='bx bxs-thermometer'></i>
+            <div class="word">
+              <div class="value">
+                <span class="num">_</span>
+                <span class="unit">°</span>C
+              </div>
+              <span class="text-feel">Feels like</span>
+            </div>
+          </div>
+          <div class="humidity">
+            <i class='bx bxs-droplet-half'></i>
+            <div class="word">
+              <div class="value">
+                <span class="num">_</span>
+                <span class="unit">%</span>
+              </div>
+              <span class="text-humidity">Humidity</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="forecast-container">
+        <div class="forecast-0h">
+          <span class="hour">_</span>
+          <img src="public/clouds.png" alt="Weather Icon" >
+          <div class="temp">   
+            <div class="deg">
+              <span class="num">_</span>
+              <span class="unit">°</span>C
+            </div>
+          </div>
+        </div>
+        <div class="forecast-1h">
+          <span class="hour">_</span>
+          <img src="public/clouds.png" alt="Weather Icon" >
+          <div class="temp">
+            <div class="deg">
+              <span class="num">_</span>
+              <span class="unit">°</span>C
+            </div>
+          </div>
+        </div>
+        <div class="forecast-2h">
+          <span class="hour">_</span>
+          <img src="public/clouds.png" alt="Weather Icon" >
+          <div class="temp">
+            <div class="deg">
+              <span class="num">_</span>
+              <span class="unit">°</span>C
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="/src/index.js"></script>
+</body>
+</html>
